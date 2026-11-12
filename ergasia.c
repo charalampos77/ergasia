@@ -7,19 +7,8 @@ int main () {
 	
 	dias:
 		score=0;
-		printf ("Πόσα παιδιά έχει ο Δίας;\n");
-		printf ("1) 10\n2) 30\n3) 50\n4) 100\n");
-		scanf ("%d",&x);
-		if  (x==4) {
-		printf("Σωστή απάντηση\n");
-		score++;
-	    }
-		else {
-			printf ("Λάθος απάντηση\n");
-		}
-	    
-	    printf ("posa aderfia eixe o dias;\n");
-		printf ("1) 3\n2) 5\n3) 7\n4) 10\n");
+		printf ("Ποιο είναι το κύριο όπλο του Δία;\n");
+		printf ("1) Η τρίαινα\n2) Ο κεραυνός\n3) Το τόξο\n4) Το δόρυ\n");  // (Σωστή απάντηση: Ο κεραυνός)
 		scanf ("%d",&x);
 		if  (x==2) {
 		printf("Σωστή απάντηση\n");
@@ -28,11 +17,22 @@ int main () {
 		else {
 			printf ("Λάθος απάντηση\n");
 		}
-		
-		printf ("poia einai h mana tou dia;\n");
-		printf ("1) rhea\n2) hra\n3) afroditi\n4) eleni\n");
+	    
+	    printf ("Ποιο είναι το ιερό πουλί του Δία;\n");
+		printf ("1) Η κουκουβάγια\n2) Το παγώνι\n3) Ο αετός\n4) Το περιστέρι\n");  // (Σωστή απάντηση: Ο αετός) 
 		scanf ("%d",&x);
-		if  (x==1) {
+		if  (x==3) {
+		printf("Σωστή απάντηση\n");
+		score++;
+	    }
+		else {
+			printf ("Λάθος απάντηση\n");
+		}
+		
+		printf ("Ποιος ήταν ο πατέρας του Δία;\n");
+		printf ("1) Ο Ουρανός\n2) Ο Κρόνος\n3) Ο Άτλαντας\n4) Ο Προμηθέας\n");  // (Σωστή απάντηση: Ο Κρόνος)
+		scanf ("%d",&x);
+		if  (x==2) {
 		printf("Σωστή απάντηση\n");
 		score++;
 	    }
@@ -40,8 +40,8 @@ int main () {
 			printf ("Λάθος απάντηση\n");
 	    }
 		
-	    printf ("pou menei o dia;\n");
-		printf ("1) crhth\n2) parnitha\n3) olympo\n4) likabito\n");
+	    printf ("Ποια ήταν η νόμιμη σύζυγος του Δία;\n");
+		printf ("1) Η Δήμητρα\n2) Η Αθηνά\n3) Η Ήρα\n4) Η Αφροδήτη\n");  // (Σωστή απάντηση: Η Ήρα)
 		scanf ("%d",&x);
 		if  (x==3) {
 		printf("Σωστή απάντηση\n");
@@ -51,10 +51,10 @@ int main () {
 			printf ("Λάθος απάντηση\n");
 	    }	
 		
-		printf ("poio einai to oplo tou;\n");
-		printf ("1) h triena\n2) o keraunos\n3) to spathi\n4) h aspida\n");
+		printf ("Ποιο δέντρο ήταν αφιερωμένο στον Δία;\n");
+		printf ("1) Η ελιά\n2) Η δάφνη\n3) Η βελανιδιά\n4) Το κυπαρίσσι\n");  // (Σωστή απάντηση: Η βελανιδιά)
 		scanf ("%d",&x);
-		if  (x==2) {
+		if  (x==3) {
 		printf("Σωστή απάντηση\n");
 		score++;
 	    }
