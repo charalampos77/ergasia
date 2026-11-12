@@ -3,70 +3,72 @@
 int main () {
 	int x;
 	int score;
+	
+	
 	dias:
 		score=0;
-		printf ("posa paidia eixe o dias;\n");
-		printf ("1)10\n2)30\n3)50\n4)100\n");
+		printf ("Πόσα παιδιά έχει ο Δίας;\n");
+		printf ("1) 10\n2) 30\n3) 50\n4) 100\n");
 		scanf ("%d",&x);
 		if  (x==4) {
-		printf("correct\n");
+		printf("Σωστή απάντηση\n");
 		score++;
 	    }
 		else {
-			printf ("wrong\n");
+			printf ("Λάθος απάντηση\n");
 		}
 	    
 	    printf ("posa aderfia eixe o dias;\n");
-		printf ("1)3\n2)5\n3)7\n4)10\n");
+		printf ("1) 3\n2) 5\n3) 7\n4) 10\n");
 		scanf ("%d",&x);
 		if  (x==2) {
-		printf("correct\n");
+		printf("Σωστή απάντηση\n");
 		score++;
 	    }
 		else {
-			printf ("wrong\n");
+			printf ("Λάθος απάντηση\n");
 		}
 		
 		printf ("poia einai h mana tou dia;\n");
-		printf ("1)rhea\n2)hra\n3)afroditi\n4)eleni\n");
+		printf ("1) rhea\n2) hra\n3) afroditi\n4) eleni\n");
 		scanf ("%d",&x);
 		if  (x==1) {
-		printf("correct\n");
+		printf("Σωστή απάντηση\n");
 		score++;
 	    }
 		else {
-			printf ("wrong\n");
+			printf ("Λάθος απάντηση\n");
 	    }
 		
 	    printf ("pou menei o dia;\n");
-		printf ("1)crhth\n2)parnitha\n3)olympo\n4)likabito\n");
+		printf ("1) crhth\n2) parnitha\n3) olympo\n4) likabito\n");
 		scanf ("%d",&x);
 		if  (x==3) {
-		printf("correct\n");
+		printf("Σωστή απάντηση\n");
 		score++;
 	    }
 		else {
-			printf ("wrong\n");
+			printf ("Λάθος απάντηση\n");
 	    }	
 		
-		 printf ("poio einai to oplo tou;\n");
-		printf ("1)h triena\n2)o keraunos\n3)to spathi\n4)h aspida\n");
+		printf ("poio einai to oplo tou;\n");
+		printf ("1) h triena\n2) o keraunos\n3) to spathi\n4) h aspida\n");
 		scanf ("%d",&x);
 		if  (x==2) {
-		printf("correct\n");
+		printf("Σωστή απάντηση\n");
 		score++;
 	    }
 		else {
-			printf ("wrong\n");
+			printf ("Λάθος απάντηση\n");
 	    }
 		
 		
 		
 		if (score==5) {
-			printf ("proxoras parakato\n");
+			printf ("Επόμενος θεός\n");
 		}
 		else {
-			printf ("try again\n");
+			printf ("Ξανά προσπάθησε\n");
 			goto dias;
 		}
 		
@@ -74,11 +76,10 @@ int main () {
 		
 		
 		
-		
-		hra:
+	hra:
 		score=0;
 		printf ("poio zwo einai to sumvolo ths hras;\n");
-		printf ("1)to pagwni\n2)to liontari\n3)to delphini\n4)h papia\n");
+		printf ("1) to pagwni\n2) to liontari\n3) to delphini\n4) h papia\n");
 		scanf ("%d",&x);
 		if  (x==1) {
 		printf("correct\n");
@@ -121,7 +122,7 @@ int main () {
 			printf ("wrong\n");
 	    }	
 		
-		 printf ("ti xarakthrismo xrhsimopoiei o omhros gia thn hra;\n");
+		printf ("ti xarakthrismo xrhsimopoiei o omhros gia thn hra;\n");
 		printf ("1)h xrusoxera hra\n2)sebasmia hra\n3)kokkinoxera hra\n4)h asproxera hra\n");
 		scanf ("%d",&x);
 		if  (x==4) {
