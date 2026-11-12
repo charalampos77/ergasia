@@ -1,11 +1,15 @@
 #include <stdio.h> 
 #include <windows.h>
+#include <conio.h>
 
 int main () {
-	SetConsoleOutputCP(65001);
+	SetConsoleOutputCP(65001); // Επιτρέπει την εμφάνιση ελληνικών (UTF-8)
+    SetConsoleCP(65001);       // Επιτρέπει την εισαγωγή ελληνικών με scanf/fgets
 	int x;
 	int score;
 	
+	printf("Press Enter to start...\n");
+    getchar();
 	
 	dias:
 		score=0;
